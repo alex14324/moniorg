@@ -8,7 +8,7 @@ moniorg leverage certificate transparency logs to monitor for newly issued domai
 ## Installation 
 
 ```
-git clone https://github.com/yousseflahouifi/moniorg.git
+git clone https://github.com/alex14324/moniorg.git
 ```
 
 ## Requirements
@@ -49,7 +49,7 @@ python3 moniorg.py -a "VK LLC"
 |  |  |  |' '-' '|  ||  ||  |' '-' '|  |   ' '-' '
 `--`--`--' `---' `--''--'`--' `---' `--'   .`-  /
                                            `---'
-     By Youssef Lahouifi
+     By Pentester Club
 ```
 To see the domains gathered :
 
@@ -62,7 +62,7 @@ python3 moniorg.py -g "VK LLC"
 |  |  |  |' '-' '|  ||  ||  |' '-' '|  |   ' '-' '
 `--`--`--' `---' `--''--'`--' `---' `--'   .`-  /
                                            `---'
-     By Youssef Lahouifi
+     By Pentester Club
 
 [+] below is the list of domains of the company ...
 gmrk.mail.ru
@@ -82,7 +82,7 @@ python3 moniorg.py -m "VK LLC"
 |  |  |  |' '-' '|  ||  ||  |' '-' '|  |   ' '-' '
 `--`--`--' `---' `--''--'`--' `---' `--'   .`-  /
                                            `---'
-     By Youssef Lahouifi
+     By Pentester Club
 
 Got Nothing !
 ```
@@ -92,11 +92,7 @@ Got Nothing !
 moniorg depends on crt.sh website to find new domains and sometimes crt.sh looks like is timing out when the list of domain is huge . You just have to retry .
 
 ## Read more
-
-[Discovering domains like never before](https://medium.com/@youssefla/discovering-domains-like-never-before-moniorg-c609b38343b5)
-
-[Subdomain enumeration is cool , How about domain enumeration ? Part I](https://yousseflahouifi.github.io/posts/domain-enumeration/)  
-[Subdomain enumeration is cool , How about domain enumeration ? Part II](https://yousseflahouifi.github.io/posts/domain-enumeration-2/)
+https://pentesterclub.com/
 
 ## Feedback and issues?
 If you have a feedback or issue feel free to open it in the issues section .
